@@ -1,0 +1,91 @@
+body {
+    
+    background-color: #f0f0f0; /* Fallback color if image doesn't load */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("background.png");
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #d61010;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea, form select {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004494;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #cb1e27;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

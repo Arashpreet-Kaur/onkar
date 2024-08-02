@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission - College Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <h1>College Name</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <section>
+        <h2>Admission Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="department">Department Choice:</label>
+            <select id="department" name="department" required>
+                <option value="arts">Arts</option>
+                <option value="science">Science</option>
+                <option value="commerce">Commerce</option>
+            </select>
+
+            <label for="course">Course Choice:</label>
+            <select id="course" name="course" required>
+                <option value="english">English</option>
+                <option value="sociology">Sociology</option>
+                <option value="comp_sci">Computer Science</option>
+                <option value="mathematics">Mathematics</option>
+                <option value="accounting">Accounting</option>
+                <option value="business_studies">Business Studies</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>Canadore College</p>
+    </footer>
+</body>
+</html>
